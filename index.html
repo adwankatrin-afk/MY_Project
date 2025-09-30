@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل فعاليات المدينة</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+   <header>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                     <p class="Tit">دليل فعاليات المدينة</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">
+                                <p class="Tit">الرئيسية</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">
+                                <p class="Tit">الفعاليات</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <p class="Tit">عن الدليل</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <p class="Tit"> اتصل بنا</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img src="img\LOGO.jpg" alt="logo" width="180" height="150" class="d-inline-block align-text-top me-2" id="images" >
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Hero Section -->
+         <p class="three">أسماء الطلاب المشاركين:
+                    <ul style = "list-style-type:circle">
+                     <li>غياث العقباني(gheath_317787)</li>
+                     <li> كاترين عدوان(katrin_284313)</li>
+                     <li> نايا العيد(naya_238234)</li>
+                     <li> آية الأشقر(aya_288915)</li>
+                     <li>  تيم أبو فخر(taim_313588)</li>
+                    </ul>
+                </p><br><br>
+                <p class="five ">Events City </p><br><br>
+        <section class="hero-section mb-5">
+            <div class="row align-items-center">
+                
+
+                <p class="one ">تعرّف على الأنشطة المتوفرة في مدينتك</p><br> <br>
+                <p class="two ">المنصة الأشمل لجميع الفعاليات الترفيهية,الموسيقية,الفنية,العلمية و غيرها الكثير</p><br><br>
+                 <div>
+                    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" id="bord" >
+                            <div class="carousel-item active">
+                                <img src="img\دورات تدريبية.jpg" class="d-block w-100 rounded" alt="فعالية دورات تدريبية" >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img\امسيات شعرية.png" class="d-block w-100 rounded" alt="فعالية أمسيات شعرية">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img\ألغاز.png" class="d-block w-100 rounded" alt="فعالية ألغاز">
+                            </div>
+                             <div class="carousel-item ">
+                                <img src="img\حرف يدوية.jpg" class="d-block w-100 rounded" alt="فعالية حرف يدوية" >
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <p>
+                    <a href="events.html" class="btn btn-primary btn-lg mt-3"> رؤية كل الفعاليات </a>
+
+                </p>
+                    
+               
+            </div><br><br><br>
+            
+        </section>
+
+        <!-- Featured Events Section -->
+        <section class="featured-events mb-5">
+            <p class="Common_Events">
+                فعاليات بارزة هذا الأسبوع
+            </p>
+           
+            <div class="row" id="featuredEvents">
+                <!-- سيتم ملؤها بواسطة JavaScript -->
+            </div>
+        </section>
+
+        <!-- Quick Categories Section -->
+        <section class="quick-categories mb-5">
+              <p class="Common_Events">
+                    تصنيفات سريعة
+                </p>
+
+            <h2 class="text-center mb-4"></h2>
+
+            <div class="d-flex flex-wrap justify-content-center gap-2">
+                <button class="btn btn-primary  category-filter" data-category="all">الكل</button>
+                <button class="btn btn-primary category-filter" data-category="شعر">شعر</button>
+                <button class="btn btn-primary category-filter" data-category="ألغاز">ألغاز</button>
+                <button class="btn btn-primary category-filter" data-category="موسيقى">موسيقى</button>
+                <button class="btn btn-primary category-filter" data-category="ترفيه">ترفيه</button>
+                 <button class="btn btn-primary category-filter" data-category="تراث">تراث</button>
+                 <button class="btn btn-primary category-filter" data-category="أعمال">أعمال</button>
+                 <button class="btn btn-primary category-filter" data-category="طعام">طعام</button>
+                  <button class="btn btn-primary category-filter" data-category="دورات">دورات</button>
+                   <button class="btn btn-primary category-filter" data-category="فن بصري">فن بصري</button>   
+            </div>
+        </section>
+        <!-- Latest Events Section -->
+        <section class="latest-events">
+             <p class="Common_Events">
+                الفعاليات الجديدة
+                 </p>
+            <div class="row" id="latestEvents">
+                <!-- سيتم ملؤها بواسطة JavaScript -->
+            </div>
+        </section>
+        <!-- فريق العمل -->
+       
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                     <p class="Tit">
+                        روابط مواقع التواصل الاجتماعي:
+                    </p>
+
+                    
+                      <a href="https://www.facebook.com/share/17HcnahopK/" class="btn btn-outline-primary btn-social">
+                               <img src="img\facebook.png" width="75px" height="60px">
+                      </a>
+                       <a href="https://www.instagram.com/events.city_2025?utm_source=qr&igsh=MWhmcWh5cmQzdHZ5eg==" class="btn btn-outline-primary btn-social">
+                             <img src="img\instagram.png" width="75px" height="60px">
+                            </a>
+
+                </div>
+                <div class="col-md-4">
+                    <p class="Tit">
+                        روابط سريعة
+                    </p>
+                    <ul class="list-unstyled"  style = "list-style-type:circle" >
+                        <li class="text-black" ><a href="index.html" class="text-black">الرئيسية</a></li>
+                        <li class="text-black"><a href="events.html" class="text-black">الفعاليات</a></li>
+                        <li class="text-black"><a href="about.html" class="text-black">عن الدليل</a></li>
+                        <li class="text-black"><a href="contact.html" class="text-black">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+
+                     <p class="Tit">
+                        للتواصل
+                    </p>
+                    <ul style = "list-style-type:circle">
+                        <li  class="text-black">البريدالإلكتروني:InfoTeam@gmail.com </li>
+                        <li class="text-black">الهاتف:0998877665</li>
+
+
+                    
+                    <div class="social-links">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">© 2025 دليل فعاليات المدينة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
